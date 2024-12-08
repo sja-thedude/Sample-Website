@@ -19,6 +19,7 @@ nav {
     display: flex;
     justify-content: center;
     gap: 20px;
+    justify-content: space-around;
 }
 
 nav a {
@@ -37,13 +38,18 @@ nav a:hover {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background: linear-gradient(to right, #4facfe, #00f2fe);
-    color: white;
+    background-image: url('images/webdesign.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: rgb(0, 0, 0);
     text-align: center;
 }
 
 .hero h1 {
     font-size: 3rem;
+    padding: 2%;
+    background-color: #fff;
     animation: fadeIn 2s ease-in-out;
 }
 
@@ -84,11 +90,52 @@ nav a:hover {
 .content {
     padding: 50px;
     text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
 }
 
 .content h2 {
     font-size: 2rem;
-    margin: 20px 0;
+    width: 30%;
+    color: black;
+    background-color: #fff;
+    margin-left: 30%;
+    margin-bottom: 10%;
+}
+
+.content p {
+    width: 50%;
+    color: black;
+    background-color: #fff;
+    margin-left: 20%;
+}
+
+#products {
+    background-image: url('images/products.png');
+}
+
+#services {
+    background-image: url('images/services.png');
+}
+
+#solutions {
+    background-image: url('images/solution.png');
+}
+
+#support {
+    background-image: url('images/support.png');
+}
+
+#contact {
+    background-image: url('images/contact-us.png');
+}
+
+.contactform{
+    background-color: #fff;
+    width: 30%;
+    margin-left: 30%;
 }
 
 footer {
